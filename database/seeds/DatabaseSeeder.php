@@ -13,12 +13,12 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         Cache::flush();
-        $this->call(RolesAndPermissionsSeeder::class);
-        $this->call(UsersTableSeeder::class);
-        $this->call(MediaFileSeeder::class);
-        $this->call(General::class);
-        $this->call(LocationSeeder::class);
-        $this->call(News::class);
+        // $this->call(RolesAndPermissionsSeeder::class);
+        // $this->call(UsersTableSeeder::class);
+        // $this->call(MediaFileSeeder::class);
+        // $this->call(General::class);
+        // $this->call(LocationSeeder::class);
+        // $this->call(News::class);
         $this->call(Tour::class);
     }
 }

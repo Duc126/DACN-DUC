@@ -1,7 +1,7 @@
 <div class="bravo_header">
     <div class="{{$container_class ?? 'container'}}">
         <div class="content">
-            <div class="header-left">
+            <div class="header-left" style="height:70px;">
                 <a href="{{url('/')}}" class="bravo-logo">
                     @if($logo_id = setting_item("logo_id"))
                         <?php $logo = get_file_url($logo_id,'full') ?>
