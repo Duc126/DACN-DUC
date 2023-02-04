@@ -9,7 +9,7 @@
 <?php $__env->startSection('content'); ?>
     <div class="container-fluid">
         <div class="d-flex justify-content-between mb20">
-            <h1 class="title-bar"><?php echo e(__('Bookings Statistic')); ?></h1>
+            <h1 class="title-bar"><?php echo e(__('Tour statistical')); ?></h1>
         </div>
         <?php echo $__env->make('admin.message', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
         <div class="bravo-statistic">
