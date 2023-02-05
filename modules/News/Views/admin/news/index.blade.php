@@ -16,7 +16,7 @@
                           class="filter-form filter-form-left d-flex justify-content-start">
                         {{csrf_field()}}
                         <select name="action" class="form-control">
-                            <option value="">{{__(" Bulk Actions ")}}</option>
+                            <option value="">{{__(" Select Action ")}}</option>
                             <option value="publish">{{__(" Publish ")}}</option>
                             <option value="draft">{{__(" Move to Draft ")}}</option>
                             <option value="delete">{{__(" Delete ")}}</option>

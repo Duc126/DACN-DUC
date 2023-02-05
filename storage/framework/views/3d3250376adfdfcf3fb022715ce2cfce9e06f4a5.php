@@ -14,6 +14,7 @@
                             <div class="card-content">
                                 <span class="card-title"><?php echo e($card['title']); ?></span>
                                 <span class="card-amount"><?php echo e($card['amount']); ?></span>
+                                
                                 <span class="card-desc"><?php echo e($card['desc']); ?></span>
                             </div>
                             <div class="card-media">

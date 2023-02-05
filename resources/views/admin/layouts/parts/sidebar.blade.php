@@ -176,19 +176,19 @@ $menus = [
         'children'   => [
             [
                 'url'        => 'admin/module/report/booking',
-                'title'      => __('Booking Reports'),
+                'title'      => __('All Book Tour Reports'),
                 'icon'       => 'icon ion-ios-pricetags',
                 'permission' => 'report_view',
             ],
             [
                 'url'        => 'admin/module/report/statistic',
-                'title'      => __('Booking Statistic'),
+                'title'      => __('Book Tour Statistic'),
                 'icon'       => 'icon ion ion-md-podium',
                 'permission' => 'report_view',
             ],
             [
                 'url'        => 'admin/module/contact',
-                'title'      => __('Contact Submissions'),
+                'title'      => __('Contact Subscribe'),
                 'icon'       => 'icon ion ion-md-mail',
                 'permission' => 'contact_manage',
             ],
