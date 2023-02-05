@@ -11,7 +11,7 @@
                     <form method="post" action="{{url('admin/module/review/bulkEdit')}}" class="filter-form filter-form-left d-flex justify-content-start">
                         {{csrf_field()}}
                         <select name="action" class="form-control">
-                            <option value="">{{__(" Bulk Actions ")}}</option>
+                            <option value="">{{__(" Select Actions ")}}</option>
                             <option value="approved">{{__(" Approved ")}}</option>
                             <option value="pending">{{__(" Pending ")}}</option>
                             <option value="spam">{{__(" Spam ")}}</option>

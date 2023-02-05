@@ -45,12 +45,12 @@
 						<div class="info-bg">
 							<img src="https://tomap.travelerwp.com/wp-content/uploads/2018/12/bg-contact-1.jpg" class="img-responsive" alt="Background Contact Info">    </div>
 						<div class="info-content">
-							<h3>{{ __('Traveler Ltd') }}</h3>
+							<h3>{{ __('Đức Bùi') }}</h3>
 							<div class="sub">
 								<p></p>
-								<p>{{ __('Tell. + 00 222 444 33') }}</p>
-								<p>{{ __('Email. hello@yoursite.com') }}</p>
-								<p class="address">{{ __('1355 Market St, Suite 900San, Francisco, CA 94103 United States') }} </p>
+								<p>{{ __('Tell. + 0355913199') }}</p>
+								<p>{{ __('Email. ducbui1211@gmail.com') }}</p>
+								<p class="address">{{ __('Lê Duẩn, TP.Vinh, Nghê An, Việt Nam') }} </p>
 							</div>
 						</div>
 					</div>

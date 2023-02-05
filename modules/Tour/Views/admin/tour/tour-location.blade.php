@@ -32,15 +32,15 @@
                 <div class="g-control">
                     <div class="form-group">
                         <label>{{__("Map Lat")}}:</label>
-                        <input type="text" name="map_lat" class="form-control" value="{{$row->map_lat}}" readonly="">
+                        <input type="text" name="map_lat" class="form-control" value="{{$row->map_lat}}" ="">
                     </div>
                     <div class="form-group">
                         <label>{{__("Map Lng")}}:</label>
-                        <input type="text" name="map_lng" class="form-control" value="{{$row->map_lng}}" readonly>
+                        <input type="text" name="map_lng" class="form-control" value="{{$row->map_lng}}" >
                     </div>
                     <div class="form-group">
                         <label>{{__("Map Zoom")}}:</label>
-                        <input type="text" name="map_zoom" class="form-control" value="{{$row->map_zoom ?? "8"}}" readonly>
+                        <input type="text" name="map_zoom" class="form-control" value="{{$row->map_zoom ?? "8"}}" >
                     </div>
                 </div>
             </div>

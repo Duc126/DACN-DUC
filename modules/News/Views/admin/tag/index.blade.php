@@ -27,7 +27,7 @@
                             <form method="post" action="{{url('admin/module/news/tag/bulkEdit')}}" class="filter-form filter-form-left d-flex justify-content-start">
                                 {{csrf_field()}}
                                 <select name="action" class="form-control">
-                                    <option value="">{{__(" Bulk Action ")}}</option>
+                                    <option value="">{{__(" Select Action ")}}</option>
                                     <option value="delete">{{__(" Delete ")}}</option>
                                 </select>
                                 <button data-confirm="{{__("Do you want to delete?")}}" class="btn-info btn btn-icon dungdt-apply-form-btn" type="submit">{{__('Apply')}}</button>

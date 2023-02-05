@@ -189,7 +189,7 @@ class General extends Seeder
                 ],
                 [
                     'name' => "email_footer",
-                    'val' => '<p class="" style="text-align: center">&copy; Duc Bui. All rights reserved</p>',
+                    'val' => '<p class="" style="text-align: center">&copy; Duc Bui</p>',
                     'group' => "general",
                 ],
             ]

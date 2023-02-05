@@ -11,7 +11,7 @@
                     <form method="post" action="{{url('admin/module/report/booking/bulkEdit')}}" class="filter-form filter-form-left d-flex justify-content-start">
                         @csrf
                         <select name="action" class="form-control">
-                            <option value="">{{__("-- Bulk Actions --")}}</option>
+                            <option value="">{{__("-- Select Actions --")}}</option>
                             @if(!empty($statues))
                                 @foreach($statues as $status)
                                     <option value="{{$status}}">{{__('Mark as: :name',['name'=>ucfirst($status)])}}</option>

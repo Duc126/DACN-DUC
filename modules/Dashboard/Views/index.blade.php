@@ -14,6 +14,8 @@
                             <div class="card-content">
                                 <span class="card-title">{{$card['title']}}</span>
                                 <span class="card-amount">{{$card['amount']}}</span>
+                                {{-- <a class="card-desc text-decoration-underline" href="/admin/module/tour/booking">
+                                    {{$card['desc']}}</a> --}}
                                 <span class="card-desc">{{$card['desc']}}</span>
                             </div>
                             <div class="card-media">
