@@ -46,7 +46,7 @@
             <div class="col-md-12 col-lg-6 ">
                 <div class="panel">
                     <div class="panel-title d-flex justify-content-between">
-                        <strong><?php echo e(__('Recent Bookings')); ?></strong>
+                        <strong><?php echo e(__('Recent Booking Tour')); ?></strong>
                         <a href="<?php echo e(url('admin/module/report/booking')); ?>" class="btn-link"><?php echo e(__("More")); ?>
 
                             <i class="icon ion-ios-arrow-forward"></i></a>

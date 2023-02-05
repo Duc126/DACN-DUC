@@ -125,6 +125,6 @@ class SubscriberController extends AdminController
 
     public function export()
     {
-        return (new SubscriberExport())->download('subscribers-' . date('M-d-Y') . '.xlsx');
+        return (new SubscriberExport())->download('subscribers-' . date('Y-m-d') . '.xlsx');
     }
 }

@@ -9,7 +9,7 @@
 @section ('content')
     <div class="container-fluid">
         <div class="d-flex justify-content-between mb20">
-            <h1 class="title-bar">{{__('Tour Statistical')}}</h1>
+            <h1 class="title-bar">{{__('Earning Statistics')}}</h1>
         </div>
         @include('admin.message')
         <div class="bravo-statistic">
