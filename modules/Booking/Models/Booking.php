@@ -436,7 +436,7 @@ class Booking extends BaseModel
                     [
                         'label'           => __("Total Price"),
                         'data'            => [],
-                        'backgroundColor' => '#45bbe0'
+                        'backgroundColor' => '#1078ed'
                     ]
                 ]
             ],

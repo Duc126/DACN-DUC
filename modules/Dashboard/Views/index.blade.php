@@ -47,7 +47,7 @@
             <div class="col-md-12 col-lg-6 ">
                 <div class="panel">
                     <div class="panel-title d-flex justify-content-between">
-                        <strong>{{__('Recent Bookings')}}</strong>
+                        <strong>{{__('Recent Booking Tour')}}</strong>
                         <a href="{{url('admin/module/report/booking')}}" class="btn-link">{{__("More")}}
                             <i class="icon ion-ios-arrow-forward"></i></a>
                     </div>

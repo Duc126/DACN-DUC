@@ -182,7 +182,7 @@ $menus = [
             ],
             [
                 'url'        => 'admin/module/report/statistic',
-                'title'      => __('Book Tour Statistic'),
+                'title'      => __('Earning Statistics'),
                 'icon'       => 'icon ion ion-md-podium',
                 'permission' => 'report_view',
             ],
